@@ -130,13 +130,16 @@ else:
  #5.comapre a 3 no. if all are equal then return
  #sum of all if not than return sum and thrice of all??
 num1=int(input("Etner the number 1"))
+num2=int(input("Etner the number 2"))
 num3=int(input("Etner the number 3"))
-num3=int(input("Etner the number 3"))
+if(num1==num2==num3):
+    print(num1+num2+num3)
+else:
+    print(3*(num1+num2+num3))
 
 
 
-
- '''
+'''
  6.comapre a two no. and find gretest b/w them?/
  7.take values  of length and breath of a rectangle from user and check
 if it is square or not?/
