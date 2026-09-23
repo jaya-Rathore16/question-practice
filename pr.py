@@ -140,7 +140,7 @@ else:
     print(3*(num1+num2+num3))
 '''
 
-
+'''
 
 #6.comapre a two no. and find gretest b/w them?/
 num1=int(input("Etner the number 1"))
@@ -153,12 +153,22 @@ else:
     print("numbers are equle")
 
 '''
+#7.take values  of length and breath of a rectangle from user and check
+#if it is square or not?/
+'''
+length=int(input("Enter the length"))
+breath=int(input("Enter the breath"))
+if(length==breath):
+    print("Given length and breath is form square")
+else:
+    print("Given length and breath is not form square")
+'''
 
- 7.take values  of length and breath of a rectangle from user and check
-if it is square or not?/
- 8.a company decided to give a bonus of 5% to
-employee if the year of service is more than 5  years ask user for
-their salary and year of service and print the net bonus??
+#8.a company decided to give a bonus of 5% to
+#employee if the year of service is more than 5  years ask user for
+#their salary and year of service and print the net bonus??
+
+'''
  9.a student will not be allowed to sit in exam her
 attendance is less than 75% take following input from user number of
 classes held
