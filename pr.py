@@ -168,6 +168,12 @@ else:
 #8.a company decided to give a bonus of 5% to
 #employee if the year of service is more than 5  years ask user for
 #their salary and year of service and print the net bonus??
+YOS=int(input("Enter year of service:"))
+sal=int(input("Enter your current salary:"))
+if(YOS>=5):
+    print("your net bonus is:"(5/100)*sal)
+else:
+    print("Your are not eligible for any bonus")
 
 '''
  9.a student will not be allowed to sit in exam her
