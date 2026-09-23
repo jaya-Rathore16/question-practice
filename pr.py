@@ -168,25 +168,32 @@ else:
 #8.a company decided to give a bonus of 5% to
 #employee if the year of service is more than 5  years ask user for
 #their salary and year of service and print the net bonus??
+'''
 YOS=int(input("Enter year of service:"))
 sal=int(input("Enter your current salary:"))
 if(YOS>=5):
     print("your net bonus is:"(5/100)*sal)
 else:
     print("Your are not eligible for any bonus")
-
 '''
- 9.a student will not be allowed to sit in exam her
-attendance is less than 75% take following input from user number of
-classes held
-,number of clasees attend is student to sit in exam or not??
-//if_elif_else example
-10.Traffic light
-Write a python program that will check for the following conditions:
-* If the light is green – Car is allowed to go
-* If the light is yellow – Car has to wait
-* If the light is red – Car has to stop
-* Other signal – unrecognized signal. Example black, blue, etc…
+
+#9.a student will not be allowed to sit in exam her attendance is less than 75% take following input from user #number ofclasses held,number of clasees attend is student to sit in exam or not??//if_elif_else example
+'''
+no_classes_held=int(int(input("Enter number of class held:")))
+no_classes_attend=int(int(input("Enter number of class held:")))
+total_attendence=(no_classes_attend/no_classes_held)*100
+if(total_attendence>=75):
+    print("student allow to sit in exam")
+else:
+    print("student allow to sit in exam")
+'''
+#10.Traffic light
+#Write a python program that will check for the following conditions:
+#* If the light is green – Car is allowed to go
+#* If the light is yellow – Car has to wait
+#* If the light is red – Car has to stop
+#* Other signal – unrecognized signal. Example black, blue, etc…
+'''
 11.Write a program to trace your subject mark. Your program should fulfill the following conditions:
 1. If the subject mark is below 0 and above 100, print “error: mark should be between 0 and 100 only”
 2. Students will fail in the subject if their mark is below 50.
