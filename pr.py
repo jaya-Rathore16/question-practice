@@ -14,6 +14,7 @@ print((aum*rate*time)/100,"is your SI")
 #compairing thre number usig nexted load
 a=int(input("enter the number "))
 b=int(input("enter the number "))
+
 c=int(input("enter the number "))
 if(a<b):
   if(a<c):
