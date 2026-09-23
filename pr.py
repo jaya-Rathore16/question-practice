@@ -126,6 +126,8 @@ if(num>17):
 else:
     diff=(num-17)**2
     print(diff)
+
+'''
 '''
  #5.comapre a 3 no. if all are equal then return
  #sum of all if not than return sum and thrice of all??
@@ -136,11 +138,22 @@ if(num1==num2==num3):
     print(num1+num2+num3)
 else:
     print(3*(num1+num2+num3))
+'''
 
 
+
+#6.comapre a two no. and find gretest b/w them?/
+num1=int(input("Etner the number 1"))
+num2=int(input("Etner the number 2"))
+if(num1>num2):
+    print("num1 is grater than num2")
+elif(num2>num1):
+    print("num2 is grater than num1")
+else:
+    print("numbers are equle")
 
 '''
- 6.comapre a two no. and find gretest b/w them?/
+
  7.take values  of length and breath of a rectangle from user and check
 if it is square or not?/
  8.a company decided to give a bonus of 5% to
