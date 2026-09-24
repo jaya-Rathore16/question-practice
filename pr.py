@@ -193,6 +193,7 @@ else:
 #* If the light is yellow – Car has to wait
 #* If the light is red – Car has to stop
 #* Other signal – unrecognized signal. Example black, blue, etc…
+'''
 light = input("Enter the traffic light color: ").lower()
 
 if light == "green":
@@ -208,16 +209,33 @@ else:
     print("Unrecognized signal")
 
 '''
-11.Write a program to trace your subject mark. Your program should fulfill the following conditions:
-1. If the subject mark is below 0 and above 100, print “error: mark should be between 0 and 100 only”
-2. Students will fail in the subject if their mark is below 50.
-3. Students will pass in the subject if they score 50 and above.
-    1. If subject mark is between 50 and 60, grade student as good.
-    2. If subject mark is between 60 and 80, grade student as very good.
-    3. If subject mark is between 80 and 100, grade student as outstanding.
-Make sure to print their mark in every statement to prove that the condition is fulfilled. Moreover, name, class, and section should be also displayed along with the marks and their grade.
 
-,,,
+#11.Write a program to trace your subject mark. Your program should fulfill the following conditions:
+
+#1. If the subject mark is below 0 and above 100, print “error: mark should be between 0 and 100 only”
+#2. Students will fail in the subject if their mark is below 50.
+#3. Students will pass in the subject if they score 50 and above.
+#   1. If subject mark is between 50 and 60, grade student as good.
+#   2. If subject mark is between 60 and 80, grade student as very good.
+#   3. If subject mark is between 80 and 100, grade student as outstanding.
+#Make sure to print their mark in every statement to prove that the condition is fulfilled. Moreover, name, class, and section should be also displayed along with the marks and their grade
+mark=int(input("Enter you subject mark"))
+if(mark<50):
+    if(mark>=0):
+        print("Fail in Subjet")
+if mark>50:
+    if(mark<=60):
+        print("Student is pass with good grade")
+elif(mark>60):
+    if(mark<80):
+        print("studentis pass with very good score")
+elif(mark>80):
+    if(mark<=100):
+        print("Student is pass with outstading grade")
+else:
+    print("error mark should be between 0-100")
+
+'''
 12.Write a  program to find those numbers which are divisible by 7 and multiples of 5, between 1500 and 2700 (both included).
 
 13.Write a Python program to count the number of even and odd numbers in a series of numbers
