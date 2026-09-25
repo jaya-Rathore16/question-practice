@@ -220,21 +220,16 @@ else:
 #   3. If subject mark is between 80 and 100, grade student as outstanding.
 #Make sure to print their mark in every statement to prove that the condition is fulfilled. Moreover, name, class, and section should be also displayed along with the marks and their grade
 mark=int(input("Enter you subject mark"))
-if(mark<50):
-    if(mark>=0):
-        print("Fail in Subjet")
-if mark>50:
-    if(mark<=60):
-        print("Student is pass with good grade")
-elif(mark>60):
-    if(mark<80):
-        print("studentis pass with very good score")
-elif(mark>80):
-    if(mark<=100):
-        print("Student is pass with outstading grade")
-else:
-    print("error mark should be between 0-100")
-
+if(mark<=0 or mark>=101):
+    print("Error,mark should be between 0 and 100 only")
+elif(mark<=49):
+        print("Student is fail")
+elif(mark<=60):
+    print("studentis pass with good score")
+elif(mark<=80):
+    print("Student is pass with very good grade")
+elif(mark<=100):
+        print("Student is pass with outstanding grade")
 '''
 12.Write a  program to find those numbers which are divisible by 7 and multiples of 5, between 1500 and 2700 (both included).
 
