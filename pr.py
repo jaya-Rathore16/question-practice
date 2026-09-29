@@ -219,7 +219,7 @@ else:
 #   2. If subject mark is between 60 and 80, grade student as very good.
 #   3. If subject mark is between 80 and 100, grade student as outstanding.
 #Make sure to print their mark in every statement to prove that the condition is fulfilled. Moreover, name, class, and section should be also displayed along with the marks and their grade
-mark=int(input("Enter you subject mark"))
+'''mark=int(input("Enter you subject mark"))
 if(mark<=0 or mark>=101):
     print("Error,mark should be between 0 and 100 only")
 elif(mark<=49):
@@ -231,7 +231,17 @@ elif(mark<=80):
 elif(mark<=100):
         print("Student is pass with outstanding grade")
 '''
-12.Write a  program to find those numbers which are divisible by 7 and multiples of 5, between 1500 and 2700 (both included).
+#12.Write a  program to find those numbers which are divisible by 7 and multiples of 5, between 1500 and 2700 (both included).
+
+for i in range(1500,2700):
+    if i%7==0:
+        if i%5==0:
+            print(i)
+
+
+    
+
+'''
 
 13.Write a Python program to count the number of even and odd numbers in a series of numbers
 Sample numbers : numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)
