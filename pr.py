@@ -232,19 +232,18 @@ elif(mark<=100):
         print("Student is pass with outstanding grade")
 '''
 #12.Write a  program to find those numbers which are divisible by 7 and multiples of 5, between 1500 and 2700 (both included).
-
+'''
 for i in range(1500,2700):
     if i%7==0:
         if i%5==0:
             print(i)
 
-
-    
-
 '''
 
-13.Write a Python program to count the number of even and odd numbers in a series of numbers
-Sample numbers : numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+#13.Write a Python program to count the number of even and odd numbers in a series of numbers
+#Sample numbers : numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+
+'''
 findLargest()` finds the largest between two number by using “>” and “=” operator in JavaScript.
 1. Print num1 is the largest if num1>num2.
 2. Print num2 is the largest if num1<num2.
@@ -290,17 +289,28 @@ P.S. Each array includes only integer numbers. Output is a number too.
 28.Calculate the sum of all the numbers in the following array
 var numbersArray = [1,13,22,123,49]
 29. prints all the elements of a 2D array using nested for loops.
-30.. Write a JS code to print Even numbers in given array
+30.. Write a pyhton code to print Even numbers in given array
 31.prints all the even numbers of a 2D array using for loops and ‘%’ operator.
-32.Write a JS code to delete all occurrence of element in given array
-33.Write a JS code to find the power of a number using for loop
-34.Write a JS code to find the no of digits in a number
-35.Write a JS code to calculate the sum of digits in a number
-36.Write a JS code to find the largest number in an array
-37.Write a JS code to find product of two arrays
-38.Write a JS code to print the Fibonacci series for a given value of N
-39.Write a JS code to find duplicate values in a given array
+32.Write a python code to delete all occurrence of element in given array
+33.Write a pyhton code to find the power of a number using for loop
+34.Write a python code to find the no of digits in a number
+35.Write a pyhton code to calculate the sum of digits in a number
+36.Write a pyhton code to find the largest number in an array
+37.Write a python code to find product of two arrays
+38.Write a python code to print the Fibonacci series for a given value of N
+39.Write a  pyhton code to find duplicate values in a given array
 40.check no is pandriome or not?
 41.check no is Armstrong or not?
-42.check no is perfect or not??'''
-
+'''
+#14.check no is perfect or not??
+'''
+num=int(input("Enter the number"))
+sum=0
+for i in range(1, num):
+    if num%i==0:
+        sum=sum+i
+        print(sum)
+if sum==num:
+    print("number is perfect number")
+else:
+    print("number is not pertect")
